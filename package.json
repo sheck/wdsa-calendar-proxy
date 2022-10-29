@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:sheck/wdsa-calendar-proxy.git",
   "author": "Nick Sheck <sheck@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/node": "^2.5.26",
+    "typescript": "^4.8.4"
+  }
 }
