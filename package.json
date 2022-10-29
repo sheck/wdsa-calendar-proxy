@@ -5,6 +5,9 @@
   "repository": "git@github.com:sheck/wdsa-calendar-proxy.git",
   "author": "Nick Sheck <sheck@users.noreply.github.com>",
   "license": "MIT",
+  "prettier": {
+    "semi": false
+  },
   "devDependencies": {
     "@vercel/node": "^2.5.26",
     "prettier": "^2.7.1",
