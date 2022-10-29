@@ -1,6 +1,5 @@
 {
   "name": "wdsa-calendar-proxy",
-  "type": "module",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:sheck/wdsa-calendar-proxy.git",
