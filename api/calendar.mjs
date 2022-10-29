@@ -13,5 +13,7 @@ async function run(response) {
   response.setHeader("Content-Type", "text/calendar")
   // Cache for 5 minutes in the browser, and on vercel's edge cache
   response.setHeader("Cache-Control", "max-age=300, s-maxage=300")
+  // Disable cors
+  response.setHeader("Access-Control-Allow-Origin", "*")
   response.send(calText)
 }
